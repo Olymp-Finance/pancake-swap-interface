@@ -12,9 +12,6 @@ import PoolFinder from './PoolFinder'
 import RemoveLiquidity from './RemoveLiquidity'
 import Swap from './Swap'
 import { RedirectPathToSwapOnly } from './Swap/redirects'
-import { EN, allLanguages } from '../constants/localisation/languageCodes'
-import { LanguageContext } from '../hooks/LanguageContext'
-import { TranslationsContext } from '../hooks/TranslationsContext'
 
 import Menu from '../components/Menu'
 
