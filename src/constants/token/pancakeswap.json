@@ -200,9 +200,9 @@
       "decimals": 18
     },
     {
-      "name": "PancakeSwap Token",
-      "symbol": "CAKE",
-      "address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+      "name": " BSCLMPFinanceTest",
+      "symbol": "LMPTEST",
+      "address": "0x1366e5a08aa56d02f0ce9bc5e7c34675e206fceb",
       "chainId": 56,
       "decimals": 18
     },
