@@ -1,14 +1,14 @@
 describe('Add Liquidity', () => {
   it('loads the two correct tokens', () => {
-    cy.visit('/add/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82-0xe9e7cea3dedca5984780bafc599bd69add087d56')
-    cy.get('#add-liquidity-input-tokena .token-symbol-container').should('contain.text', 'CAKE')
+    cy.visit('/add/0x1366e5a08aa56d02f0ce9bc5e7c34675e206fceb-0xe9e7cea3dedca5984780bafc599bd69add087d56')
+    cy.get('#add-liquidity-input-tokena .token-symbol-container').should('contain.text', 'LMPTEST')
     cy.get('#add-liquidity-input-tokenb .token-symbol-container').should('contain.text', 'BUSD')
   })
 
-  it('does not crash if CAKE is duplicated', () => {
-    cy.visit('/add/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82-0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82')
-    cy.get('#add-liquidity-input-tokena .token-symbol-container').should('contain.text', 'CAKE')
-    cy.get('#add-liquidity-input-tokenb .token-symbol-container').should('not.contain.text', 'CAKE')
+  it('does not crash if LMPTEST is duplicated', () => {
+    cy.visit('/add/0x1366e5a08aa56d02f0ce9bc5e7c34675e206fceb-0x1366e5a08aa56d02f0ce9bc5e7c34675e206fceb')
+    cy.get('#add-liquidity-input-tokena .token-symbol-container').should('contain.text', 'LMPTEST')
+    cy.get('#add-liquidity-input-tokenb .token-symbol-container').should('not.contain.text', 'LMPTEST')
   })
 
   it('token not in storage is loaded', () => {

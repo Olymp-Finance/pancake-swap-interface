@@ -188,12 +188,12 @@
       "logoURI": "https://exchange.pancakeswap.finance/images/coins/0x7083609fce4d1d8dc0c979aab8c869ea2c873402.png"
     },
     {
-      "name": "PancakeSwap Token",
-      "symbol": "CAKE",
-      "address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+      "name": "BSCLMPFinanceTest",
+      "symbol": "LMPTEST",
+      "address": "0x1366e5a08aa56d02f0ce9bc5e7c34675e206fceb",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://exchange.pancakeswap.finance/images/coins/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82.png"
+      "logoURI": "https://exchange.pancakeswap.finance/images/coins/0x1366e5a08aa56d02f0ce9bc5e7c34675e206fceb.png"
     },
     {
       "name": "Streamity",
