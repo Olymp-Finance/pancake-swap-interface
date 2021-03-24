@@ -33,7 +33,7 @@ export function useSwapActionHandlers(): {
       dispatch(
         selectCurrency({
           field,
-          currencyId: currency instanceof Token ? currency.address : currency === ETHER ? 'ETH' : '',
+          currencyId: currency instanceof Token ? currency.address : currency === ETHER ? 'BNB' : '',
         })
       )
     },
@@ -87,9 +87,9 @@ export function tryParseAmount(value?: string, currency?: Currency): CurrencyAmo
 }
 
 const BAD_RECIPIENT_ADDRESSES: string[] = [
-  '0xdf72d7694fe9cd4f3cea1dc25eb0e95e9e9ecea0', // v2 factory
+  '0xBCfCcbde45cE874adCB698cC183deBcF17952812', // v2 factory
   '0xf164fC0Ec4E93095b804a4795bBe1e041497b92a', // v2 router 01
-  '0x2E9E8B15a2bA082623bA90E09C4CFed989854D04', // v2 router 02
+  '0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F', // v2 router 02
 ]
 
 /**
@@ -201,10 +201,10 @@ function parseCurrencyFromURLParameter(urlParam: any): string {
   if (typeof urlParam === 'string') {
     const valid = isAddress(urlParam)
     if (valid) return valid
-    if (urlParam.toUpperCase() === 'ETH') return 'ETH'
-    if (valid === false) return 'ETH'
+    if (urlParam.toUpperCase() === 'BNB') return 'BNB'
+    if (valid === false) return 'BNB'
   }
-  return 'ETH' ?? ''
+  return 'BNB' ?? ''
 }
 
 function parseTokenAmountURLParameter(urlParam: any): string {

@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://olymp.finance/',
+    href: 'https://pancakeswap.finance/',
   },
   {
     label: 'Trade',
@@ -24,22 +24,22 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://olymp.finance/farms',
+    href: 'https://pancakeswap.finance/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://olymp.finance/syrup',
+    href: 'https://pancakeswap.finance/syrup',
   },
   {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: 'https://olymp.finance/lottery',
+    href: 'https://pancakeswap.finance/lottery',
   },
   {
     label: 'NFT',
     icon: 'NftIcon',
-    href: 'https://olymp.finance/nft',
+    href: 'https://pancakeswap.finance/nft',
   },
   {
     label: 'Teams & Profile',
@@ -48,15 +48,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Leaderboard',
-        href: 'https://olymp.finance/teams',
+        href: 'https://pancakeswap.finance/teams',
       },
       {
         label: 'Task Center',
-        href: 'https://olymp.finance/profile/tasks',
+        href: 'https://pancakeswap.finance/profile/tasks',
       },
       {
         label: 'Your Profile',
-        href: 'https://olymp.finance/profile',
+        href: 'https://pancakeswap.finance/profile',
       },
     ],
   },
@@ -66,26 +66,26 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Overview',
-        href: 'https://olymp.info',
+        href: 'https://pancakeswap.info',
       },
       {
         label: 'Tokens',
-        href: 'https://olymp.info/tokens',
+        href: 'https://pancakeswap.info/tokens',
       },
       {
         label: 'Pairs',
-        href: 'https://olymp.info/pairs',
+        href: 'https://pancakeswap.info/pairs',
       },
       {
         label: 'Accounts',
-        href: 'https://olymp.info/accounts',
+        href: 'https://pancakeswap.info/accounts',
       },
     ],
   },
   {
     label: 'IFO',
     icon: 'IfoIcon',
-    href: 'https://olymp.finance/ifo',
+    href: 'https://pancakeswap.finance/ifo',
   },
   {
     label: 'More',
@@ -93,19 +93,19 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Voting',
-        href: 'https://voting.olymp.finance',
+        href: 'https://voting.pancakeswap.finance',
       },
       {
         label: 'Github',
-        href: 'https://github.com/olymp',
+        href: 'https://github.com/pancakeswap',
       },
       {
         label: 'Docs',
-        href: 'https://docs.olymp.finance',
+        href: 'https://docs.pancakeswap.finance',
       },
       {
         label: 'Blog',
-        href: 'https://olymp.medium.com',
+        href: 'https://pancakeswap.medium.com',
       },
     ],
   },
