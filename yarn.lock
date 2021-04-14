@@ -3172,7 +3172,7 @@
     mkdirp "^1.0.4"
     rimraf "^2.7.1"
 
-"@olympfinance/sdk@1.0.3":
+"@olympfinance/sdk@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@olympfinance/sdk/-/sdk-1.0.3.tgz#0eb7e6c5b668912072cb6206035ca36b4dbf3749"
   integrity sha512-O+ft7C2S8ONd7NSKr6Zl9Ixupabxd9NZ3VTX8D4go9fhEt4qAB8cjhJxFd/e6nGVSTWuPV4njP7+zwWq81fjaA==
