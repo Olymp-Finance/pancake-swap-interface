@@ -2109,9 +2109,9 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/sdk@1.0.1":
+"@olympfinance/sdk@1.0.1":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@pancakeswap-libs/sdk/-/sdk-1.0.1.tgz#602e6da34fd5bde0f3c869f9abe63bb5f4aaf063"
+  resolved "https://registry.yarnpkg.com/@olympfinance/sdk/-/sdk-1.0.1.tgz#602e6da34fd5bde0f3c869f9abe63bb5f4aaf063"
   integrity sha512-N4EZlAD0PD7lgVEE8jOufUPRNBvcR3STSjBC9QVwoKmmH1czEY9lu8/SySecKchZtSi66qAfsrghkdXo8tnJsg==
   dependencies:
     "@uniswap/v2-core" "^1.0.0"
@@ -2122,9 +2122,9 @@
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
 
-"@pancakeswap-libs/uikit@^0.14.1":
+"@olympfinance/uikit@^0.14.1":
   version "0.14.1"
-  resolved "https://registry.yarnpkg.com/@pancakeswap-libs/uikit/-/uikit-0.14.1.tgz#8e42b80678da85d74d9075d49f617ed9171aaff6"
+  resolved "https://registry.yarnpkg.com/@olympfinance/uikit/-/uikit-0.14.1.tgz#8e42b80678da85d74d9075d49f617ed9171aaff6"
   integrity sha512-PknRl6qIXSCPPCTseTCEnzaXuW8dowAGUbus500IEZMOtl+hZu+D0g8s0tG6DRcwEIWF1RLmYIWJjuJHiKv8IQ==
   dependencies:
     "@types/lodash" "^4.14.162"
